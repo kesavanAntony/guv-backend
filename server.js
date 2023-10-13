@@ -14,10 +14,10 @@ app.use(cors({
 }
 ));
 const connection = mysql.createConnection({
-    host: "localhost",
-    user: "root",
+    host: "db4free.net",
+    user: "kesavanraj",
     password: "Kesavan@5",
-    database: "users",
+    database: "guvi_project",
     port: 3306
 });
 connection.connect((error) => {
